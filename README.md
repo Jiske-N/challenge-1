@@ -1,6 +1,7 @@
 # Horiseon Homepage
 
-- [Further Changes](#further-changes)
+- [Further Alterations](#further-alterations)
+- [Potential Issues/Improvements](#potential-issuesimprovements)
 - [Key Learnings](#key-learnings)
 - [Contributing and Feedback](#contributing-and-feedback)
 - [Credits](#credits)
@@ -18,12 +19,26 @@ The main goal of the project was to optimise for search engines by:
 
 ![Picture of the Homepage](./assets/images/Homepage.png)
 
-## Further Changes
+## Further Alterations
+
 Other alterations include:
 - Writing a README.
 - Fixing a non functioning link.
 - Tidying and condensing the stylesheet.
 - Adding alt descriptions to images.
+
+## Potential Issues/Improvements
+
+Added query/s to the html with potential improvements to address issues below:
+
+HTML
+- No meta for viewport data.
+- Consider alternate name for the page.
+- Consider an aria-label in place of a hidden img providing alt text.
+
+CSS 
+- Nav bar in header doesn't display properly at resolutions below 1017 (same as with starter code). Consider implementation of media queries.
+- Further elements break at very low resolutions - see above.
 
 ## Key Learnings
 
