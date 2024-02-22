@@ -55,12 +55,16 @@ li {
 }
 
 /* updated with new nav element */
+/* resolution below 1017 breaks the display of this element both on the original as well as this updated css */
+/* added position to give this element a z-index in order for it to show in front of the backgorund image albeit with broken styling (basically identical to original page) */
 nav {
+    position: relative;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    z-index: 2;
 }
 
 a {
@@ -68,7 +72,8 @@ a {
     text-decoration: none;
 }
 
-/* large background image, given position relative as an anchor for the sr-only image */
+/* large background image 
+given position relative as an anchor for the sr-only image as well as to apply a z-index so it appears behind nav below 1017 resolution */
 .hero {
     position: relative;
     height: 800px;
@@ -77,6 +82,7 @@ a {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    z-index: 1;
 }
 
 /* put in to hide the image used to provide an alt text for the background-image above */
