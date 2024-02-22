@@ -16,7 +16,7 @@ The main goal of the project was to optimise for search engines by:
 - Improving the structure of html elements.
 - Adding a descriptive title.
 
-![Picture of the Homepage](./Assets/Homepage.png)
+![Picture of the Homepage](./Develop/assets/images/Homepage.png)
 
 ## Further Changes
 Other alterations include:
